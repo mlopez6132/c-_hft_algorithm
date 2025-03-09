@@ -1,0 +1,75 @@
+# Build artifacts
+build/
+*.o
+*.a
+*.so
+*.obj
+*.exe
+*.out
+hft_system
+
+# Dependency directories
+deps/
+lib/
+vendor/
+
+# Logs
+*.log
+*.log.*
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Compiled binaries and libraries
+bin/
+*.dll
+*.lib
+*.dylib
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.DS_Store
+
+# Testing and coverage
+*.gcda
+*.gcno
+*.gcov
+coverage/
+
+# Python virtual environments (if used for tooling)
+venv/
+env/
+*.pyc
+__pycache__/
+
+# Documentation build artifacts
+docs/_build/
+docs/build/
+
+# Temporary files
+*~
+*.tmp
+*.bak
+
+# Configuration secrets (keep these out of version control)
+*.key
+*.pem
+secrets/
+credentials/
+
+# Local configuration overrides
+config.local.ini
+*.local
+
+# Profiling and debugging
+*.prof
+*.core
+core
